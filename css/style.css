@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .container{
@@ -45,7 +45,7 @@ header li a{
     display: none;
 }
 
------------------------------------------------
+/* ----------------------------------------------- */
 
 /* TABLET HEADER  */
 @media  screen and (max-width:480px) {
@@ -58,7 +58,7 @@ header li a{
     }
 }
 
-------------------------------------------------
+/* ------------------------------------------------ */
 
 /* Corpo principale- Main */
 main{
@@ -73,12 +73,52 @@ main{
 
 .card{
     background-color: #b5ddff;
-    width: calc(100% / 4);
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
     /* DEBUG */
-    border: solid 1px black;
+    /* border: solid 1px black; */
     min-height: 200px;
 }
 
+.card h2{
+    padding: 10px 0;
+    color: #0084fd;
+}
+
+.card p{
+    line-height: 25px;
+}
+
+.card i{
+    font-size: 55px;
+    color: #0084fd;
+}
+
 .card.big{
-    width: calc((100% / 3) * 2);
+    width: calc((100% / 3) * 2 - 20px);
+    display: flex;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.card.big img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.card.big a{
+    text-decoration: none;
+    background-color: #0084fd;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30%;
+}
+
+.card.big i{
+    margin-top: 30px;
+    font-size: 10px;
+    color: white;
+    padding-right: 5px;
 }
