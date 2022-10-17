@@ -45,6 +45,8 @@ header li a{
     display: none;
 }
 
+-----------------------------------------------
+
 /* TABLET HEADER  */
 @media  screen and (max-width:480px) {
     #menu-mobile{
@@ -54,4 +56,29 @@ header li a{
     #menu-desktop{
         display: none;
     }
+}
+
+------------------------------------------------
+
+/* Corpo principale- Main */
+main{
+    margin-top: 80px;
+}
+
+/* cards */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #b5ddff;
+    width: calc(100% / 4);
+    /* DEBUG */
+    border: solid 1px black;
+    min-height: 200px;
+}
+
+.card.big{
+    width: calc((100% / 3) * 2);
 }
