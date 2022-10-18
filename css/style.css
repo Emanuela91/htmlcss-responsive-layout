@@ -244,24 +244,41 @@ p{
 /* Parte con Cards */
 .test-cards{
     display: flex;
+    align-items: center;
     background-color: #9593e6;
     min-height: 120px;
     border-radius: 10%;
+    margin-top: 20px;
+    padding: 10px;
 }
 
+
 .foto img{
-    width: 30%;
+    width: 90%;
     border-radius: 100%;
-    margin-left: 30px;
     padding: 10px;
 }
 
 .article article{
     color: white;
-    padding-top: 20px;
+}
+
+.article i{
+    padding: 0 5px;
 }
 
 .name{
     color: white;
     padding-top: 20px;
 }
+
+/* --------------------------------------------------------------- */
+/* SMARTPHONE MAIN-CARDS */
+@media screen and (max-width: 480px){
+    .test-cards{
+        display: block;
+        text-align: center;
+    }
+}
+/* --------------------------------------------------------------- */
+
