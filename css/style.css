@@ -8,6 +8,7 @@
 .container{
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 
@@ -61,6 +62,7 @@ header li a{
 /* ------------------------------------------------ */
 
 /* Corpo principale- Main */
+/* Sezione Cards */
 main{
     margin-top: 80px;
 }
@@ -83,12 +85,12 @@ main{
     min-height: 200px;
 }
 
-.card h2{
+h2{
     padding: 10px 0;
     color: #0084fd;
 }
 
-.card p{
+p{
     line-height: 25px;
 }
 
@@ -126,7 +128,7 @@ main{
 
 /* ------------------------------------------------ */
 
-/* TABLET MAIN */
+/* TABLET MAIN-CARDS */
 @media screen and (max-width: 768px) {
     .card.big{
         display: block;
@@ -135,7 +137,7 @@ main{
 }
 
 
-/* SMARTPHONE MAIN */
+/* SMARTPHONE MAIN-CARDS */
 @media screen and (max-width: 480px) {
     .cards{
         display: block;
@@ -150,4 +152,75 @@ main{
     }
 }
 
+/* ------------------------------------------------ */
+
+/* Sezione Planning */
+.violet{
+    background-color: #9593e6;
+    min-height: 500px;
+}
+
+.violet .container{
+    height: 100%;
+
+}
+
+.strategic-planning{
+    display: flex;
+    margin: 0px 120px;
+    height: 100%;
+    align-items: end;
+    padding-bottom: 25px;
+}
+
+#strategic{
+    padding: 30px;
+}
+
+#strategic h2{
+    color: white;
+}
+
+#strategic p{
+    color: white;
+}
+
+#strategic img{
+    width: 55%;
+}
+
+#app{
+    background-color: white;
+    border-radius: 10%;
+    text-align: center;
+    padding: 30px;
+}
+
+#app h3{
+    padding: 10px 0;
+}
+
+#app img{
+    width: 40%;
+}
+
+#app p{
+    margin-bottom: 30px;
+}
+
+#app a{
+    background-color: #9593e6;
+    color: black;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+/* ----------------------------------------------- */
+/* MAIN TABLET-PLANNING */
+@media screen and (max-width: 768px) {
+   .strategic-planning{
+    display: block;  
+    margin: 0 auto;  
+   }   
+}
 /* ------------------------------------------------ */
