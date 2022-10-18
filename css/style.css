@@ -48,7 +48,7 @@ header li a{
 /* ----------------------------------------------- */
 
 /* TABLET HEADER  */
-@media  screen and (max-width:480px) {
+@media  screen and (max-width:768px) {
     #menu-mobile{
         display: block;
     }
@@ -75,6 +75,7 @@ main{
     background-color: #b5ddff;
     width: calc(100% / 3 - 20px);
     margin: 10px;
+    border-radius: 5%;
     padding: 20px;
     text-align: center;
     /* DEBUG */
@@ -122,3 +123,31 @@ main{
     color: white;
     padding-right: 5px;
 }
+
+/* ------------------------------------------------ */
+
+/* TABLET MAIN */
+@media screen and (max-width: 768px) {
+    .card.big{
+        display: block;
+    }
+    
+}
+
+
+/* SMARTPHONE MAIN */
+@media screen and (max-width: 480px) {
+    .cards{
+        display: block;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .card.big{
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------------ */
