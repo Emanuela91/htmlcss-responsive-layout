@@ -1,20 +1,20 @@
 /* regole generali */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 1040px;
-    width: calc( 100% - 30% );
+    width: calc(100% - 30%);
     margin: 0 auto;
     margin-bottom: 40px;
 }
 
 
 /* Logo e menu */
-header{
+header {
     background-color: #0084fd;
     height: 80px;
     position: fixed;
@@ -22,20 +22,21 @@ header{
     left: 0;
     width: 100%;
 }
-header .container{
+
+header .container {
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header li{
+header li {
     display: inline-block;
     color: white;
     padding: 0 5px;
 }
 
-header li a{
+header li a {
     background-color: white;
     color: black;
     text-decoration: none;
@@ -43,19 +44,19 @@ header li a{
     border-radius: 30%;
 }
 
-#menu-mobile{
+#menu-mobile {
     display: none;
 }
 
 /* ----------------------------------------------- */
 
 /* TABLET HEADER  */
-@media  screen and (max-width:768px) {
-    #menu-mobile{
+@media screen and (max-width:768px) {
+    #menu-mobile {
         display: block;
     }
-    
-    #menu-desktop{
+
+    #menu-desktop {
         display: none;
     }
 }
@@ -64,17 +65,17 @@ header li a{
 
 /* Corpo principale- Main */
 /* Sezione Cards */
-main{
+main {
     margin-top: 80px;
 }
 
 /* cards */
-.cards{
+.cards {
     display: flex;
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     background-color: #b5ddff;
     width: calc(100% / 3 - 20px);
     margin: 10px;
@@ -86,33 +87,33 @@ main{
     min-height: 200px;
 }
 
-h2{
+h2 {
     padding: 10px 0;
     color: #0084fd;
 }
 
-p{
+p {
     line-height: 25px;
 }
 
-.card i{
+.card i {
     font-size: 55px;
     color: #0084fd;
 }
 
-.card.big{
+.card.big {
     width: calc((100% / 3) * 2 - 20px);
     display: flex;
     text-align: left;
     padding-bottom: 0;
 }
 
-.card.big img{
+.card.big img {
     width: 100%;
     padding-top: 10px;
 }
 
-.card.big a{
+.card.big a {
     text-decoration: none;
     background-color: #0084fd;
     color: white;
@@ -120,7 +121,7 @@ p{
     border-radius: 30%;
 }
 
-.card.big i{
+.card.big i {
     margin-top: 30px;
     font-size: 10px;
     color: white;
@@ -131,24 +132,24 @@ p{
 
 /* TABLET MAIN-CARDS */
 @media screen and (max-width: 768px) {
-    .card.big{
+    .card.big {
         display: block;
     }
-    
+
 }
 
 
 /* SMARTPHONE MAIN-CARDS */
 @media screen and (max-width: 480px) {
-    .cards{
+    .cards {
         display: block;
     }
 
-    .card{
+    .card {
         width: 100%;
     }
 
-    .card.big{
+    .card.big {
         width: 100%;
     }
 }
@@ -156,18 +157,18 @@ p{
 /* ------------------------------------------------ */
 
 /* Sezione Planning */
-.violet{
+.violet {
     background-color: #9593e6;
     min-height: 500px;
     margin-bottom: 40px;
 }
 
-.violet .container{
+.violet .container {
     height: 100%;
 
 }
 
-.strategic-planning{
+.strategic-planning {
     display: flex;
     margin: 0px 120px;
     height: 100%;
@@ -175,42 +176,42 @@ p{
     padding-bottom: 25px;
 }
 
-#strategic{
+#strategic {
     padding: 30px;
 }
 
-#strategic h2{
+#strategic h2 {
     color: white;
 }
 
-#strategic p{
+#strategic p {
     color: white;
 }
 
-#strategic img{
+#strategic img {
     width: 55%;
 }
 
-#app{
+#app {
     background-color: white;
     border-radius: 10%;
     text-align: center;
     padding: 30px;
 }
 
-#app h3{
+#app h3 {
     padding: 10px 0;
 }
 
-#app img{
+#app img {
     width: 40%;
 }
 
-#app p{
+#app p {
     margin-bottom: 30px;
 }
 
-#app a{
+#app a {
     background-color: #9593e6;
     color: black;
     border-radius: 100%;
@@ -220,30 +221,33 @@ p{
 /* ----------------------------------------------- */
 /* MAIN TABLET-PLANNING */
 @media screen and (max-width: 768px) {
-   .strategic-planning{
-    display: block;  
-    margin: 0 auto;  
-   }   
+    .strategic-planning {
+        display: block;
+        margin: 0 auto;
+    }
 }
+
 /* ------------------------------------------------ */
 
 /* Sezione Testimonials */
 /* Parte superiore */
-#testimonials{
+#testimonials {
     text-align: center;
 }
 
-#testimonials h3, h1, p{
+#testimonials h3,
+h1,
+p {
     padding-bottom: 10px;
 }
 
-#testimonials h1{
+#testimonials h1 {
     color: #9593e6;
     font-size: 30px;
 }
 
 /* Parte con Cards */
-.test-cards{
+.test-cards {
     display: flex;
     align-items: center;
     background-color: #9593e6;
@@ -254,7 +258,7 @@ p{
 }
 
 
-.foto img{
+.foto img {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -262,36 +266,38 @@ p{
     padding: 10px;
 }
 
-.article article{
+.article article {
     color: white;
 }
 
-.article i{
+.article i {
     padding: 0 5px;
 }
 
-.name{
+.name {
     color: white;
     padding-top: 20px;
 }
 
 /* --------------------------------------------------------------- */
 /* SMARTPHONE MAIN-CARDS */
-@media screen and (max-width: 480px){
-    .test-cards{
+@media screen and (max-width: 480px) {
+    .test-cards {
         display: block;
         text-align: center;
     }
 }
+
 /* --------------------------------------------------------------- */
 
 /* Parte con Benefits */
-.cards-ben{
+.cards-ben {
     display: flex;
     flex-wrap: wrap;
 }
-.card-benefits{
-    background-color:white;
+
+.card-benefits {
+    background-color: white;
     width: calc(100% / 3 - 20px);
     margin: 10px;
     border-radius: 5%;
@@ -301,27 +307,27 @@ p{
     min-height: 200px;
 }
 
-.benefits{
+.benefits {
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
-.card-benefits h1{
+.card-benefits h1 {
     font-size: 40px;
     color: #9593e6;
 }
 
-.card-benefits h3{
+.card-benefits h3 {
     color: #9593e6;
     padding-bottom: 10px;
 }
 
-.card-benefits p{
+.card-benefits p {
     margin-bottom: 10px;
 }
 
-.card-benefits a{
+.card-benefits a {
     text-decoration: none;
     color: white;
     background-color: #9593e6;
@@ -336,6 +342,7 @@ p{
         display: block;
     } */
 
-    .card-benefits{
+    .card-benefits {
         width: calc(100% / 2 - 20px);
     }
+}
